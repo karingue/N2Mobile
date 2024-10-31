@@ -1,0 +1,19 @@
+// Arquivo build.gradle para a pasta 'android'
+buildscript {
+    repositories {
+        google() // Repositório do Google
+        mavenCentral() // Repositório do Maven Central
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.1' // Versão do plugin Gradle
+        classpath 'com.google.gms:google-services:4.3.15' // Versão do Google Services
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.22" // Versão do Kotlin
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Repositório do Google
+        mavenCentral() // Repositório do Maven Central
+    }
+}

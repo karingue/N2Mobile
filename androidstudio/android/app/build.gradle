@@ -1,0 +1,41 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    // O plugin do Google Services deve ser mantido aqui
+    id 'com.google.gms.google-services' 
+}
+
+android {
+    namespace = "com.example.wishlistgabriel" // O namespace deve corresponder ao package_name
+    compileSdk = 34 // Defina para o valor apropriado. Ex.: 33
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.wishlistgabriel" // Deve corresponder ao package_name do google-services.json
+        minSdk = 21 // Defina para o valor apropriado
+        targetSdk = 33 // Defina para o valor apropriado
+        versionCode = 1 // Defina um valor inteiro adequado
+        versionName = "1.0" // Defina a versão
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug // Use sua configuração de assinatura para produção
+        }
+    }
+}
+
+dependencies {
+    // Firebase dependencies
+    implementation platform('com.google.firebase:firebase-bom:33.5.1')
+    implementation 'com.google.firebase:firebase-analytics'
+}
