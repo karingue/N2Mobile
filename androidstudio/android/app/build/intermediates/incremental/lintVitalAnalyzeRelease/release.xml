@@ -2,12 +2,12 @@
     name="release"
     package="com.example.wishlistgabriel"
     minSdkVersion="21"
-    targetSdkVersion="33"
+    targetSdkVersion="34"
     shrinking="true"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
-    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0;C:\Users\gabhe\AppData\Local\Flutter\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0;C:\Users\STE\AppData\Local\Flutter\flutter_windows_3.24.4-stable\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\out"
-    desugaredMethodsFiles="C:\Users\gabhe\.gradle\caches\transforms-3\65c0c5e1a46dd2074f619deb01dcd57d\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\STE\.gradle\caches\transforms-3\65c0c5e1a46dd2074f619deb01dcd57d\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -31,6 +31,6 @@
       applicationId="com.example.wishlistgabriel"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out"
       generatedResourceFolders="build\generated\res\google-services\release;build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\gabhe\.gradle\caches\transforms-3\65c0c5e1a46dd2074f619deb01dcd57d\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\STE\.gradle\caches\transforms-3\65c0c5e1a46dd2074f619deb01dcd57d\transformed\D8BackportedDesugaredMethods.txt">
   </mainArtifact>
 </variant>

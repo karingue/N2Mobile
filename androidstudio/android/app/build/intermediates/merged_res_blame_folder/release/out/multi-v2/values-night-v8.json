@@ -4,7 +4,7 @@
             "outputFile": "com.example.wishlistgabriel.app-mergeReleaseResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\gabhe\\androidstudio\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\STE\\Documents\\GitHub\\N2Mobile\\androidstudio\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
